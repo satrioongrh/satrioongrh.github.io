@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-crimson h-[60px];
+}
+
+.icon-contactin {
+  @apply pr-4 text-crimson text-3xl;
+}
+
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
