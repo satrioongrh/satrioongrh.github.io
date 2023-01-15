@@ -5,7 +5,6 @@
 
 body {
   height: 3000px;
-  overflow-x: hidden;
 }
 
 /* navbar */
@@ -122,7 +121,6 @@ nav ul li a:hover {
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 60px;
     flex-direction: column;
     background-color: black;
     height: 100vh;
@@ -132,6 +130,7 @@ nav ul li a:hover {
     z-index: 0;
     transform: translateX(100%);
     transition: all 0.5s;
+    margin-top: 60px;
   }
 
   .menu-toogle {
